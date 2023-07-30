@@ -23,6 +23,14 @@ body{
     width: 300px;
     background-color: #AAA;
     height: 100px;
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+
+.card:hover{
+    transform: rotateY(180deg);
+    background-color: #001;
+    scale: 1.03;
 }
 
 footer{
