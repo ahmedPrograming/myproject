@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+}
+
+.title{
+    margin-top: 3px;
+    background-color: #EEE;
+    text-align: center;
+    padding: 10px;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    height: auto;
+}
+
+.card{
+    flex-grow: 1;
+    width: 300px;
+    background-color: #AAA;
+    height: 100px;
+}
+
+footer{
+    position: relative;
+    margin-top: 20px;
+    padding: 5px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    height: 50px;
+    background-color: #DDD;
+}
